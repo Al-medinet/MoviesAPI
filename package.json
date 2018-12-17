@@ -1,0 +1,19 @@
+{
+  "name": "movies_api",
+  "version": "1.0.0",
+  "description": "This is a simple training project for movies DB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "AlMedinet",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.1"
+  }
+}

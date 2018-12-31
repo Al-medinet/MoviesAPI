@@ -3,8 +3,8 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const app = express();
 
-// Database import
-import { connect } from "./src/helpers/mongoDB.helpers";
+// Connect to database
+require("./src/helpers/mongoDB.helpers");
 
 // Export custom modules
 const moviesRouter = require("./src/routes/movies");
